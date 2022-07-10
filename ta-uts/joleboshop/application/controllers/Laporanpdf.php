@@ -54,7 +54,7 @@ Class Laporanpdf extends CI_Controller{
         $pdf->Cell(0,4,'',0,1,'C');
         $pdf->Cell(0,7,'Invoices',0,1,'C');
         $pdf->SetFont('Arial','B',8);
-        $pdf->Cell(0,4,'Kampung Anggrek - Purwosari, Kec. Mijen, Kota Semarang, Jawa Tengah',0,1,'C');
+        $pdf->Cell(0,4,'Joleboshop - Sukorejo, Kec. Gunungpati, Kota Semarang, Jawa Tengah',0,1,'C');
         $pdf->Cell(0,4,'(+62 857-4222-3710)',0,1,'C');
         $pdf->Cell(10,7,'',0,1);
         $pdf->Cell(100,7,'Konsumen',0,0);
